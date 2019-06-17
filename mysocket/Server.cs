@@ -66,7 +66,7 @@ namespace mysocket
             try
             {
                 Socket socket = listedId.EndAccept(ar);
-
+                
                 int index = NewIndex();
 
                 if (index < 0)
